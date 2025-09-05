@@ -6,7 +6,7 @@ def get_word_count(filepath):
         text = f.read()
         words = text.split()
         num_count = len(words)
-    result = str(num_count) + " total words"
+    result = "Found " + str(num_count) + " total words"
     return result
 
 def get_letter_count(filepath):
